@@ -1,0 +1,71 @@
+
+  .reachUs{
+    margin-block-start: 2em;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+   .contactInfo{
+    margin-right:2px;
+  } 
+  .contactMail{
+    margin-right:2px;
+  }
+  .ImageContent
+{
+  /* height: 250;
+  width:850;  */
+   /* margin-top:20px;  */
+
+  margin-bottom: 210px;
+  margin-left:auto;
+  margin-right:auto;
+  /* vertical-align:middle; */
+  font-family: var(--bs-font-sans-serif);
+  font-weight: 400;
+  color: #212121;
+  
+}
+ 
+.InformationPages
+{
+  background-color: #FFFFFF;
+  margin-top: 60px;
+  /* margin-left: 70px; */
+  margin-left:auto;
+  margin-right:auto; 
+  vertical-align:middle;
+
+}
+
+.imgg
+{
+  margin-top: 50px;
+   /* left:110px; */
+ /* margin-top: 20px;  */
+ /* margin-right: 100px; */
+ /* margin-left: 250px; */
+ background-color: transparent;
+ display: block;
+ /* padding-bottom:30px; */
+ 
+ margin-left: auto;
+ margin-right: auto;
+ /* width: 50%; */
+
+} 
+
+.imgg:hover img  {
+background-color: red;
+}
+
+
+@media(max-width:800px) {
+  .InformationPages
+{
+flex-direction: column;
+
+}
+}

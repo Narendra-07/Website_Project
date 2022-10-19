@@ -1,0 +1,68 @@
+
+ 
+  /* .contentCard
+  {
+    min-width: 500px;
+    font-size: medium;
+    margin-right: 90px;
+    margin-left:140px;
+    margin-bottom: 20px;
+  height: 900px;
+  } */
+
+.ImageContent
+{
+  /* height: 250;
+  width:850; */
+  /* margin-top: 10px; */
+  /* margin-left:110px; */
+  /* margin-bottom: 90px; */
+  font-family: var(--bs-font-sans-serif);
+  font-weight: 400;
+  color: #212121;
+  /* margin-left: auto;  */
+  /* margin-right: auto;  */
+  display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ align-items: center;
+ justify-content: center;
+}
+.InformationPages
+{
+  background-color: #FFFFFF;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align:middle;  */
+  /* justify-content: center; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.imgg 
+{
+  /* left:110px; */
+ /* margin-top:10px; */
+ /* margin-bottom: 100px; */
+ background-color: transparent;
+ /* display: block; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+} 
+
+.imgg:hover img  {
+background-color: red;
+}
+
+/* 
+@media(max-width:800px) {
+  .InformationPages
+{
+flex-direction: column;
+}
+} */

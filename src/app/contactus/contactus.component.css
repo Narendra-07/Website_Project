@@ -1,0 +1,55 @@
+ .middleCard
+  {
+    font-size:15px;
+    margin-left: 100px;
+    margin-right: 80px;
+    min-height: 460px;
+    width:500px;
+    border: black;
+    border-width: 9px;
+   margin-block-start:3em ;
+   margin-block-end: 3em;
+  }
+  
+     .contactIcon
+  {
+    color: gray;
+    font-size: 18px;
+  }
+ 
+  .btn{
+    background-color: rgb(0, 166, 153);
+    font-weight: bold;
+  }
+
+.reachUs{
+  margin-block-start: 2em;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  display: block;
+}
+
+.middleCard, .reachUs {
+  font-family: 'Poppins', sans-serif;
+} 
+
+
+
+.middleCard input,
+.middleCard textarea,
+.middleCard select {
+/* padding: 12px; */
+font-size: 14px;
+border: 1px solid;
+}
+
+.form-group h6 {
+  padding-bottom: 2px;
+  font-weight: 300px;
+}
+
+.outline {
+  border-style: solid;
+  border-width: 1px;
+}

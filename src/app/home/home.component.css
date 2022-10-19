@@ -1,0 +1,296 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ .HomePagecontainer
+ {
+   background-color: #FFFFFF;
+ }
+ .textWithCarousel {
+  position: relative;
+  bottom: 280px;
+  /* width: 100%; */
+  /* margin-right: auto;
+  margin-bottom: auto; */
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center; */
+ }
+ /* .gradiantMatCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+} */
+/* .gradiantMatCard
+{
+  position: absolute;
+  left:580px;
+  top:40px;
+} */
+
+ 
+ /* --- for gradient ----*/
+
+
+/* .gradient
+{
+  position: relative;
+  margin-bottom: 0px;
+} */
+
+.center-left-text {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color:seashell;
+  /* position: absolute; */
+   margin-left: 30px;
+   margin-bottom: 20px;
+  /* bottom: 20px; 
+  top:110px; */
+}
+
+.middle-left-text {
+  font-weight:bold;
+  font-size: 37px;
+  font-family: 'Poppins', sans-serif;
+  color:seashell;
+  position: absolute; 
+  left:40px;
+  /* top:160px; */
+}
+
+.bottom-left-text
+{
+  font-weight:normal;
+  font-size:18px;
+  font-family: 'Poppins', sans-serif;
+  color:seashell;
+  position: absolute;
+  top: 340px;
+  left: 50px;
+} 
+
+/* -- div header */
+.a
+{
+  margin-top:50px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #1E5128;
+}
+
+.p
+{
+  font-weight: bold;
+  text-align: center;
+  color: #1E5128;
+  margin-top: 50px;
+}
+
+.content
+{ 
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.Content
+{
+  text-align: center;
+  font-size:18px;
+  
+}
+
+  /* buttons on page */
+.mat-raised-button
+{
+  font-size: 15px;
+  background-color: #396EB0;
+  width: 110px;
+  margin:auto;
+  margin-bottom: 5px;
+}
+
+.image
+{
+  height: 30px;
+  width:370px;
+  margin:0px 35%;
+}
+
+  .cardSlide
+{
+  width:200px;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-left: 30px;
+}
+
+ .SlideCenter
+ {
+   margin-left: 250px;
+   margin-right: 100px;
+   
+ } 
+
+ .ClientCardSlide
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height:150px;
+  width:200px;
+  margin-left: 100px;
+  /* margin-right: 20px; */
+}
+
+ .leftCard, .middleCard, .rightCard
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+  .ProfileCard
+  {
+    font-size: 400px;
+    /* margin:auto; */
+    /* min-height: 5px; */
+    /* height: 350px; */
+    /* width:900px; */
+    display: flex;
+    text-align: center;
+  }
+
+      /* -- product cards ---- */
+      .productCard
+    {
+       /* height:310px; */
+      width:260px; 
+      text-align: center;
+      margin-bottom: 15px;
+      margin-left: 30px;
+      /* margin-right: 30px;  */
+    }   
+   
+    /* client card */
+    .OurClient
+    {
+      margin-left: 60px;
+      margin-right: 60px;       
+    }
+
+      /* hide card shadow */
+    .outline {
+      border-style:hidden
+  }
+
+ .owl-carousel .owl-nav
+{
+  overflow:scroll;
+
+} 
+
+.carousel-item
+{
+  margin-top: 0;
+margin-left: 0;
+padding-bottom: 5px;
+height: 320px;
+width:450px;
+}
+
+.carousel-class1
+{
+  /* height:350px; */
+  /* width:600px; */
+    width: 100%;
+  /* margin-left: 30px; */
+  /* margin-right: 50px; */
+}
+
+
+.titleClass {
+color: #212121;
+font-size: 24px;
+/* padding-top:0px; */
+/* margin-left: 70px; */
+/* margin-bottom: 50px;  */
+position: relative;
+bottom: 20px;
+text-align: center;
+font-family: FoundersGrotesk,Helvetica,Arial,sans-serif;
+font-weight: 600;
+line-height: 26px;
+/* width: 80%; */
+/* transform: translate(180%,90%); */
+}
+
+.contentClass {
+  /* margin-right: 100px; */
+  /* margin-left: 90px; */
+  /* padding-top: 40px; */
+  /* margin-bottom: 5opx; */
+  /* margin-top: 10px;  */
+   font-size: 15px;
+   font-family: var(--bs-font-sans-serif); 
+  color: #212121;
+  /* margin:auto; */
+  text-align: center;
+  /* width: 700px; */
+}
+
+.contentClass p {
+  text-indent:1cm;
+   font-weight: 500;
+}
+
+.cardSlide
+{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rows {
+ display: inline-block;
+ text-decoration: none;
+ color: black;
+ border: 1px solid #000;
+ padding: 5px 20px;
+ font-size: 15px;
+ background: transparent;
+ cursor: pointer;
+}
+
+.rows:hover {
+  border: 1px solid gray;
+  background: gray;
+  transition: 1s;
+}
+ 
+@media(max-width:700px)
+{
+  .middle-left-text {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .center-left-text{
+    font-size: 13px;
+    top:135px;
+  }
+  .productCard
+  {
+    flex-direction: column;
+  } 
+
+ .contentClass p{
+  width: 335px;
+ }
+
+}
+

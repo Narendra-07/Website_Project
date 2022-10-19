@@ -1,0 +1,49 @@
+.page-footer
+{
+   color:#000;
+    padding-left: 3px;
+    font-family: FoundersGrotesk,Helvetica,Arial,sans-serif;
+}
+ .footerData
+ {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+ }
+ .mail
+ {
+    margin-right: 2px; 
+    font-size: 20px;
+ }
+ .call
+ {
+    margin-right: 2px; 
+    font-size: 20px;   
+ }
+ .infoData
+ {
+   margin-bottom: 1px; 
+   font-size: 13px;
+   /* font-family: 'Poppins', sans-serif; */
+ }
+ .text-center 
+ {
+   font-size: 14px;
+   font-family: FoundersGrotesk,Helvetica,Arial,sans-serif;
+ }
+ .page-footer
+ {
+    min-height:70px;
+ }
+ .font-weight-bold
+ {  
+    text-align: left;
+    line-height: 20px;
+    padding-top: 20px;
+    font-family: FoundersGrotesk,Helvetica,Arial,sans-serif;
+ }
+ .text-center1
+ {
+    color:#fff;
+    text-align: center;
+ }

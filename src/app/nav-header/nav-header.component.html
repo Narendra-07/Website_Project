@@ -1,0 +1,99 @@
+
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/TransperantLogoEmboneTechnologies.png" alt="" height="103px" width="100px"
+        onclick="window.open(this.src)" role="button">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link active testHover" style="margin-right: 20px;" routerLink="home" color="white">Home</a>
+        </li>
+
+        <div class="row center">
+          <div class="col">
+            <div ngbDropdown class="d-inline-block" style="margin-right: 20px;">
+              <li class="nav-item active">
+                <a class="nav-link active" id="dropdownBasic1" ngbDropdownToggle routerLink="">Products</a>
+              </li>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <a class="dropdown-item" routerLink="industrial40"> Industrial 4.0</a>
+                <a class="dropdown-item" routerLink="iot-gateway"> IoT Gateways</a>
+                <a class="dropdown-item" routerLink="iot-dashboard"> IoT Dashboard</a>
+                <a class="dropdown-item" routerLink="bt-tools"> BI Tools</a>
+                <a class="dropdown-item" routerLink="spc-dashboard"> SPC Dashboard</a>
+                <a class="dropdown-item" routerLink="machine-monitoring"> Machine Monitoring</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-----  Industrial automation dropdown list  -->
+        <div class="row center">
+          <div class="col">
+            <div ngbDropdown class="d-inline-block" style="margin-right: 20px;">
+              <a class="nav-link active" id="dropdownBasic1" ngbDropdownToggle routerLink="">Services </a>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <div ngbDropdown class="d-inline-block">
+                  <a class="nav-link active" id="dropdownBasic1" ngbDropdownToggle routerLink="">Industrial Automation
+                  </a>
+                  <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <a class="dropdown-item" routerLink="scada-system"> SCADA System</a>
+                    <a class="dropdown-item" routerLink="nilab-view"> NI LabVIEW</a>
+                    <a class="dropdown-item" routerLink="qt"> Qt</a>
+                    <a class="dropdown-item" routerLink="plc-based-automation"> PLC Based Automation</a>
+                    <a class="dropdown-item" routerLink="vision-system"> Camera VISION Systems </a>
+                    <a class="dropdown-item" routerLink="spm"> SPM</a>
+                  </div>
+
+                  <div ngbDropdown class="d-inline-block">
+                    <a class="nav-link active" id="dropdownBasic1" ngbDropdownToggle routerLink="">Embedded Design</a>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <a class="dropdown-item" routerLink="custom-development"> Custom Development</a>
+                      <a class="dropdown-item" routerLink="scada-system"> SCADA System</a>
+                      <a class="dropdown-item" routerLink="iot-gateway"> IoT Gateways</a>
+                      <a class="dropdown-item" routerLink="iot-embedded-device"> IoT Enabled Devices</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---   contact Us page  ---->
+
+        
+          <div class="col"> 
+            <div ngbDropdown class="d-inline-block" style="margin-right: 20px;">
+              <li class="nav-item active">
+                <!-- <a class="nav-link active" id="dropdownBasic1" ngbDropdownToggle routerLink="#">Contact Us</a> -->
+                <a class="nav-link active testHover" style="margin-right: 20px;" routerLink="contact-info" color="white">Contact Us</a>
+              </li>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <!-- <a class="dropdown-item" routerLink="contactus"> Enquiry</a> -->
+                <!-- <a class="dropdown-item" routerLink="feedback"> Feedback</a> -->
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- -Search box
+          <input type="search" matInput placeholder="Search" name="search" [(ngModel)]="search">
+          <button matSuffix mat-button>
+            <mat-icon color="primary">search</mat-icon>
+          </button> -->
+      </ul>
+    </div>
+  </nav>
+</div>

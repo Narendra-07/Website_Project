@@ -1,0 +1,29 @@
+
+.navbar-dark .navbar-nav .nav-item
+{
+    color:#000;
+    font-size:19px ;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    text-decoration: underline;
+    text-decoration-color:black;
+    text-decoration-style:solid;
+    text-decoration-thickness:3px;
+}
+
+  .container
+  {      
+      padding-left: 0;
+      margin-left: 0;
+      margin-right:0;
+      padding-right:0;
+      min-height:600px ;
+      max-height: 4000px;
+      max-width: 1300px;
+    /*  background-color: #F9F9F9; */
+      font-family:'Times New Roman', Times, serif;
+  }
+ 
+  
